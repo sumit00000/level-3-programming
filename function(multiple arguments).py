@@ -1,0 +1,1 @@
+#function#multiple_argumentsdef addme(num, num2):    total = num + num2    return totalmyVal = addme(3, 2)print(myVal)#2nd typedef addme(*num):    total = 0    for v in num:        total = total + v    return totalprint(addme(3, 3, 4, 99, 3, 44))
